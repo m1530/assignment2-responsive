@@ -34,7 +34,7 @@ a{
     font-size: 64px;
     font-weight: bold;
     color: #ffffff;
-    margin: 207px 0 27px 156px;
+    margin: 207px 0 28px 156px;
 }
 
 .topbar-details a{
@@ -49,10 +49,11 @@ a{
     transition: all 2s;
 }
 /* animation */
-@keyframes test {
-    0% {background-color:red; left:0px; top:0px;}
-    100%{background-color:yellow; font-size: 30px; transform: scale(2, 2);}
-  }
+
+    @keyframes test {
+        0% {background-color:red; left:0px; top:0px;}
+        100%{background-color:yellow; font-size: 30px; transform: scale(2, 2);}
+    }
 
 .topbar-details a:hover{
     position: relative;
@@ -64,10 +65,11 @@ a{
 }
 .topbar-banner img{
     width: 556.01px;
-    height: 438px;
+    height: 456px;
     margin: 135px 140px 86px 0;
 }
 /* player styles */
+
 .players{
     margin-top: 70px;
     margin-left: 180px;
@@ -91,8 +93,8 @@ a{
     font-weight: 700;
 }
 .player-info p{
-font-size: 16px;
-margin-top: 10px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .player-details{
@@ -100,7 +102,9 @@ margin-top: 10px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     background: #FFFFFF;
 }
+
 /* extra section styles */
+
 .latest-news{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -130,7 +134,9 @@ margin-top: 10px;
     margin-top: 16px;
     margin-bottom: 10px;
 }
+
 /* sponsor styles */
+
 #center-align{
     text-align: center;
 }
@@ -186,7 +192,9 @@ margin-top: 10px;
     color: #000000;
     font-size: 18px;
 }
+
 /* mobile device responsive */
+
 @media screen and (min-width: 250px) and (max-width: 500px) {
     .container{
         width: 100%;
@@ -238,7 +246,9 @@ margin-top: 10px;
     }
  
 }
+
 /* tablet device responsive */
+
 @media only screen and (min-width: 501px) and (max-width:992px) {
     .container{
         width: 100%;
