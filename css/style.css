@@ -81,6 +81,12 @@ a{
     grid-column-gap: 30px;
     grid-row-gap: 27px;
 }
+
+.player-details{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background: #FFFFFF;
+}
 .player-image img{
     width: 300px;
     height: 256px;
@@ -88,20 +94,15 @@ a{
 .player-info{
     margin-top: 16px;
 }
-.player-name{
-    font-size: 28px;
-    font-weight: 700;
-}
 .player-info p{
     font-size: 16px;
     margin-top: 10px;
 }
-
-.player-details{
-    padding: 15px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    background: #FFFFFF;
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
 }
+
 
 /* extra section styles */
 
@@ -109,6 +110,13 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
+}
+.section-title{
+    color: #4745bd;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    margin-left: 30px;
 }
 .news{
     padding: 15px;
@@ -123,13 +131,7 @@ a{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-.section-title{
-    color: #4745bd;
-    font-size: 40px;
-    margin-bottom: 40px;
-    font-weight: 700;
-    margin-left: 30px;
-}
+
 .news-headline{
     margin-top: 16px;
     margin-bottom: 10px;
@@ -140,16 +142,16 @@ a{
 #center-align{
     text-align: center;
 }
-.sponsor img{
-    width: 200px;
-    height: 100px;
-}
+
 .all-sponsors{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-
+.sponsor img{
+    width: 200px;
+    height: 100px;
+}
 /* footer style */
 
 .footers{
@@ -214,6 +216,7 @@ a{
         width: 90%;
         margin-left: 19px;
         margin-bottom: 0;
+        font-size: 16px;
     }
     .topbar-banner img{
         width: 90%;
