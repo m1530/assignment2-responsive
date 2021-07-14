@@ -9,10 +9,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
 .container{
     width: 1440px;
     margin: 0 auto;
@@ -20,6 +16,10 @@ a{
 }
 .container.background-color{
     background-color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -210,6 +210,7 @@ margin-top: 10px;
     .topbar-banner img{
         width: 90%;
         margin-top: 0;
+        padding: 0 16px;
     }
     .players{
         margin-top: 47px;
@@ -229,12 +230,11 @@ margin-top: 10px;
     }
    
    .footer-logo, .copyright{
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
     }
     .social-icon{
         width: 60%;
-        
     }
  
 }
@@ -244,21 +244,22 @@ margin-top: 10px;
         width: 100%;
         overflow: hidden;
     }
+    
     .player, .latest-news{
         grid-template-columns: repeat(2, 1fr);
     }
    .topbar{
-       width: 100%;
+       grid-template-columns: repeat(1, 1fr);
    }
     .topbar-title{
-        font-size: 45px;
+        font-size: 65px;
         font-weight: 700;
     }
     .topbar-details{
-        margin: 112px 80px 30px 110px;
+        margin: 90px 80px 30px 110px;
     }
     .topbar-banner img{
-        width: 100%;
+        margin: 50px 80px 120px 156px;
     }
     .players{
         margin-top: 47px;
